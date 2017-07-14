@@ -1,0 +1,66 @@
+/*! UNDFrame.css BETA v1.0.0  | CROSS BROWSING CAPABILITY  | BY UN_Digitals(Umid Negmatullayev);
+		| USED REFERENCES :normalize.css by Necolas and Jon and W3.css by w3schools.com;
+
+/* Document
+	================================================================================*/
+/**
+* corrected the line-height for different platforms and browsing engines 
+*/
+html{
+	line-height:1.15;
+	-ms-text-size-adjust:100%;/*for IE platform*/
+	-webkit-text-size-adjust:100%;/*for IOS and windows operating systems*/
+} 
+
+/* UN-Colors
+    ================================================================================*/
+/*Colors will include 4 main class:
+    1.Any html background
+    2.Text properties 
+    3.Hover background
+    4.Hover text 
+    5.Border color and hover border color
+Below all colors chosed according to preferences and usage popularity !!!
+*/
+.un-white,.un-hover-white:hover{color:#000!important;background-color:#fff!important}
+.un-black,.un-hover-black:hover{color:#fff!important;background-color:#000!important}
+.un-red,.un-hover-red:hover{color:#000!important;background-color:#ef4433!important}
+.un-pomegranate,.un-hover-pomegranate:hover{color:#fff!important;background-color:#c0392b!important}
+.un-gray,.un-hover-gray:hover,.un-grey,.un-hover-grey:hover{color:#000!important;background-color:#ddd!important}
+.un-lightgray,.un-hover-lightgray,.un-lightgrey:hover{color:#000!important;background-color:#ecf0f1!important}
+.un-yellow,.un-hover-yellow:hover{color:#000!important;background-color:#f1c40f!important}
+.un-orange,.un-hover-orange:hover{color:#000!important;background-color:#f39c12!important}
+.un-carrot,.un-hover-carrot:hover{color:#000!important;background-color:#e67e22!important}
+.un-green,.un-hover-green:hover{color:#000!important;background-color:#2ecc71!important}
+.un-blue,.un-hover-blue:hover{color:#fff!important;background-color:#3498db!important}
+.un-purple,.un-hover-purple: hover{color:#fff!important;background-color:#9b59b6!important}
+.un-darkgreen,.un-hover-darkgreeen:hover{color:#fff!important;background-color:#1abc9c!important}
+
+.un-text-white,.un-hover-text-white:hover{color:#fff!important}
+.un-text-black,.un-hover-text-black:hover{color:#000!important}
+.un-text-red,.un-hover-text-red:hover{color:#ef4433!important}
+.un-text-pomegranate,.un-hover-text-pomegranate:hover{color:#c0392b!important}
+.un-text-gray,.un-hover-text-gray:hover,.un-text-grey,.un-hover-text-grey:hover{color:#ddd!important}
+.un-text-lightgrey,.un-hover-text-lightgrey:hover,.un-text-lightgray,.un-hover-text-lightgray{color:#ecf0f1!important}
+.un-text-yellow,.un-hover-text-yellow:hover{color:#f1c40f!important}
+.un-text-orange,.un-hover-text-orange:hover{color:#f39c12!important}
+.un-text-carrot,.un-hover-text-carrot:hover{color:#e67e22!important}
+.un-text-green,.un-hover-text-green:hover{color:#2ecc71!important}
+.un-text-blue,.un-hover-text-blue:hover{color:#3498db!important}
+.un-text-purple,.un-hover-text-purple:hover{color:#9b59b6!important}
+.un-text-darkgreen,.un-hover-text-dark:hover{color:#1abc9c!important}
+
+.un-border-white,.un-hover-border-white:hover{border-color:#fff!important}
+.un-border-black,.un-hover-border-black:hover{border-color:#000!important}
+.un-border-red,.un-hover-border-red:hover{border-color:#ef4433!important}
+.un-border-pomegranate,.un-hover-border-pomegranate:hover{border-color:#c0392b!important}
+.un-border-gray,.un-hover-border-gray:hover,.un-border-grey,.un-hover-border-grey:hover{border-color:#ddd!important}
+.un-border-lightgray,.un-hover-border-lightgray,.un-border-lightgray,.un-border-lightgrey,.un-hover-border-lightgrey:hover{border-color:#ecf0f1!important}
+.un-border-yellow,.un-hover-border-yellow:hover{border-color:#f1c40f!important}
+.un-border-orange,.un-hover-border-orange:hover{border-color:#f39c12!important}
+.un-border-carrot,.un-hover-border-carrot:hover{border-color:#e67e22!important}
+.un-border-green,.un-hover-border-green:hover{border-color:#2ecc71!important}
+.un-border-blue,.un-hover-border-blue:hover{border-color:#3498db!important}
+.un-border-purple,.un-hover-border-purple:hover{border-color:#9b59b6!important}
+.un-border-darkgreen,.un-border-darkgreeen:hover{border-color:#1abc9c!important}
+
