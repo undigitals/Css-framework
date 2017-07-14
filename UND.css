@@ -10,7 +10,31 @@ html{
 	line-height:1.15;
 	-ms-text-size-adjust:100%;/*for IE platform*/
 	-webkit-text-size-adjust:100%;/*for IOS and windows operating systems*/
-} 
+}
+/*UN-typography
+    ===============================================================================*/
+.un-code,.un-codespan{font-family: consolas "courier new"; font-size:14px;}
+
+
+/* UN-containers
+    ===============================================================================*/
+.un-container,.un-panel{padding:16px;}.un-panel{margin-top: 16px;margin-bottom:16px;}
+.un-section,.un-code{margin-top: 16px !important;margin-bottom: 16px !important}
+.un-window,.un-window-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.un-window-4,.un-hover-window-4:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+
+/*UN-borders
+    ===============================================================================*/
+.un-noborder{border:0!important}.un-border,.un-border-1 {border:1px solid #ccc!important}
+.un-border-2{border:2px solid #ccc !important;}.un-border-3{border:3px solid #ccc !important;}
+.un-leftbar,.un-leftbar-1{border-left:2px solid #ccc !important;}.un-leftbar-2{border-left:4px solid #ccc !important;}
+.un-leftbar-3{border-left:6px solid #ccc !important;}.un-rightbar,.un-rightbar-1{border-right:2px solid #ccc !important;}
+.un-rightbar-2{border-right:4px solid #ccc !important;}.un-rightbar-3{border-right:6px solid #ccc !important;}
+.un-topbar,.un-topbar-1{border-top:2px solid #ccc !important;}.un-topbar-2{border-top:4px solid #ccc !important;}
+.un-topbar-3{border-top:6px solid #ccc!important; }.un-bottombar,.un-bottombar-1{border-bottom: 2px solid #ccc !important;}
+.un-bottombar-2{border-bottom: 4px solid #ccc !important}.un-bottombar-3{border-bottom:6px solid #ccc !important;}
+.un-left{float: left !important;}.un-right{float:right !important;}
+
 
 /* UN-Colors
     ================================================================================*/
@@ -50,6 +74,9 @@ Below all colors chosed according to preferences and usage popularity !!!
 .un-text-purple,.un-hover-text-purple:hover{color:#9b59b6!important}
 .un-text-darkgreen,.un-hover-text-dark:hover{color:#1abc9c!important}
 
+
+
+
 .un-border-white,.un-hover-border-white:hover{border-color:#fff!important}
 .un-border-black,.un-hover-border-black:hover{border-color:#000!important}
 .un-border-red,.un-hover-border-red:hover{border-color:#ef4433!important}
@@ -63,4 +90,8 @@ Below all colors chosed according to preferences and usage popularity !!!
 .un-border-blue,.un-hover-border-blue:hover{border-color:#3498db!important}
 .un-border-purple,.un-hover-border-purple:hover{border-color:#9b59b6!important}
 .un-border-darkgreen,.un-border-darkgreeen:hover{border-color:#1abc9c!important}
+
+
+
+
 
